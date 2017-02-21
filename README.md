@@ -1,2 +1,2 @@
-# JavascriptExercises02202017
-Javascript exercises for Cleveland Codes 2017
+# Javascript Simple Quiz
+A simple quiz on Javascript. Add questions by updating the scripts.js file and adding the correct answers to the quizScore var.
