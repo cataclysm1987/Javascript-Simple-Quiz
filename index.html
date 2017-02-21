@@ -33,16 +33,36 @@
     <div class="bg"></div>
     <div class="jumbotron">
         <div class="container title-container">
-            <h1>Javascript Exercises</h1>
-            <p class="lead">These exercises were completed February 20th, 2017</p>
+            <h1>Javascript Quiz</h1>
+            <p class="lead">Take this simple quiz to test your Javascript knowledge!</p>
         </div>
     </div>
     <div class="container content-container">
         <h1 id="question1title">Which of the following is correct about features of JavaScript?</h1>
-        <form>
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other"> Other
+        <form id="question1">
+            <input type="radio" name="question1" value=""> It is a type safe language.<br>
+            <input type="radio" name="question1" value=""> It is the same as Java.<br>
+            <input type="radio" name="question1" value=""> It is predominantly used for server side applications.<br>
+            <input type="radio" name="question1" value=""> It is part of the Microsoft ASP.Net library and owned by Microsoft.<br>
+            <input type="radio" name="question1" value=""> It is a commonly used client-side language used to make web sites more interactive.<br>
+        </form> 
+        
+        <h1 id="question2title">How do we access the text of the following HTML: &lt;p id=&quot;demo&quot;&gt;This is a demonstration.&lt;/p&gt;</h1>
+        <form id="question2">
+            <input type="radio" name="question2" value=""> #demo.innerHTML = "Hello World!";<br>
+            <input type="radio" name="question2" value=""> document.getElementById(demo).innerHTML = "Hello World!";<br>
+            <input type="radio" name="question2" value=""> document.getElementByName("demo").Text = "Hello World!";<br>
+            <input type="radio" name="question2" value=""> document.getElement("p":#demo).innerHTML = "Hello World!";<br>
+            <input type="radio" name="question2" value=""> document.getElementById("demo").innerHTML = "Hello World!";<br>
+        </form> 
+        
+        <h1 id="question3title">Where do we put Javascript code?</h1>
+        <form id="question3">
+            <input type="radio" name="question3" value="">In a &lt;script&gt; tag within the &lt;body&gt; tag.<br>
+            <input type="radio" name="question3" value=""> In a &lt;script&gt; tag within the &lt;head&gt; tag.<br>
+            <input type="radio" name="question3" value=""> In a file that we link to within our website.<br>
+            <input type="radio" name="question3" value=""> On an external website or API such as Google or MaxCDN<br>
+            <input type="radio" name="question3" value=""> All of the above.<br>
         </form> 
     </div>
 </body>
