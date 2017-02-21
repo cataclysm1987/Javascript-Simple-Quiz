@@ -37,33 +37,112 @@
             <p class="lead">Take this simple quiz to test your Javascript knowledge!</p>
         </div>
     </div>
-    <div class="container content-container">
-        <h1 id="question1title">Which of the following is correct about features of JavaScript?</h1>
+<div class="container content-container">
+    <div class="quiz-container">
+        <h1 id="question1title">1. Which of the following is correct about features of JavaScript?</h1>
         <form id="question1">
-            <input type="radio" name="question1" value=""> It is a type safe language.<br>
-            <input type="radio" name="question1" value=""> It is the same as Java.<br>
-            <input type="radio" name="question1" value=""> It is predominantly used for server side applications.<br>
-            <input type="radio" name="question1" value=""> It is part of the Microsoft ASP.Net library and owned by Microsoft.<br>
-            <input type="radio" name="question1" value=""> It is a commonly used client-side language used to make web sites more interactive.<br>
-        </form> 
-        
-        <h1 id="question2title">How do we access the text of the following HTML: &lt;p id=&quot;demo&quot;&gt;This is a demonstration.&lt;/p&gt;</h1>
+            <strong>A</strong><input type="radio" name="question1" value="A"> It is a type safe language.<br>
+            <strong>B</strong><input type="radio" name="question1" value="B"> It is the same as Java.<br>
+            <strong>C</strong><input type="radio" name="question1" value="C"> It is predominantly used for server side applications.<br>
+            <strong>D</strong><input type="radio" name="question1" value="D"> It is part of the Microsoft ASP.Net library and owned by Microsoft.<br>
+            <strong>E</strong><input type="radio" name="question1" value="E"> It is a commonly used client-side language used to make web sites more interactive.<br>
+        </form>
+
+        <h1 id="question2title">2. How do we access the text of the following HTML: &lt;p id=&quot;demo&quot;&gt;This is a demonstration.&lt;/p&gt;</h1>
         <form id="question2">
-            <input type="radio" name="question2" value=""> #demo.innerHTML = "Hello World!";<br>
-            <input type="radio" name="question2" value=""> document.getElementById(demo).innerHTML = "Hello World!";<br>
-            <input type="radio" name="question2" value=""> document.getElementByName("demo").Text = "Hello World!";<br>
-            <input type="radio" name="question2" value=""> document.getElement("p":#demo).innerHTML = "Hello World!";<br>
-            <input type="radio" name="question2" value=""> document.getElementById("demo").innerHTML = "Hello World!";<br>
-        </form> 
-        
-        <h1 id="question3title">Where do we put Javascript code?</h1>
+            <strong>A</strong><input type="radio" name="question2" value="A"> #demo.innerHTML = "Hello World!";<br>
+            <strong>B</strong><input type="radio" name="question2" value="B"> document.getElementById("demo").innerHTML = "Hello World!";<br>
+            <strong>C</strong><input type="radio" name="question2" value="C"> document.getElementById("demo").Text = "Hello World!";<br>
+            <strong>D</strong><input type="radio" name="question2" value="D"> document.getElement("p":#demo).innerHTML = "Hello World!";<br>
+            <strong>E</strong><input type="radio" name="question2" value="E"> document.getElementById(demo).innerHTML = "Hello World!";<br>
+        </form>
+
+        <h1 id="question3title">3. Where can you put Javascript code?</h1>
         <form id="question3">
-            <input type="radio" name="question3" value="">In a &lt;script&gt; tag within the &lt;body&gt; tag.<br>
-            <input type="radio" name="question3" value=""> In a &lt;script&gt; tag within the &lt;head&gt; tag.<br>
-            <input type="radio" name="question3" value=""> In a file that we link to within our website.<br>
-            <input type="radio" name="question3" value=""> On an external website or API such as Google or MaxCDN<br>
-            <input type="radio" name="question3" value=""> All of the above.<br>
-        </form> 
+            <strong>A</strong><input type="radio" name="question3" value="A">In a &lt;script&gt; tag within the &lt;body&gt; tag.<br>
+            <strong>B</strong><input type="radio" name="question3" value="B"> In a &lt;script&gt; tag within the &lt;head&gt; tag.<br>
+            <strong>C</strong><input type="radio" name="question3" value="C"> In a file that we link to within our website.<br>
+            <strong>D</strong><input type="radio" name="question3" value="D"> On an external website or API such as Google or MaxCDN.<br>
+            <strong>E</strong><input type="radio" name="question3" value="E"> All of the above.<br>
+        </form>
+
+        <h1 id="question4title">4. The code to obtain a random number between 5 and 9 including both 5 and 9 is...</h1>
+        <form id="question4">
+            <strong>A</strong><input type="radio" name="question4" value="A">Math.floor((Math.random() * 5) + 5)<br>
+            <strong>B</strong><input type="radio" name="question4" value="B">Math.floor((Math.random() * 5) + 4)<br>
+            <strong>C</strong><input type="radio" name="question4" value="C">Math.floor((Math.random() * 4) + 5)<br>
+            <strong>D</strong><input type="radio" name="question4" value="D">Math.floor((Math.random() * 9) - 5)<br>
+            <strong>E</strong><input type="radio" name="question4" value="E"> Math.floor((Math.random() * 4) + 4)<br>
+        </form>
+
+        <h1 id="question5title">5. JQuery is an example of a...</h1>
+        <form id="question5">
+            <strong>A</strong><input type="radio" name="question5" value="A">Javascript Framework<br>
+            <strong>B</strong><input type="radio" name="question5" value="B">Animation Tool<br>
+            <strong>C</strong><input type="radio" name="question5" value="C">Way to code less and do more.<br>
+            <strong>D</strong><input type="radio" name="question5" value="D">Javascript library<br>
+            <strong>E</strong><input type="radio" name="question5" value="E"> Javascript Resource Index<br>
+        </form>
+
+        <h1 id="question6title">6. How do you create a function in Javascript named MyFunction?</h1>
+        <form id="question6">
+            <strong>A</strong><input type="radio" name="question6" value="A">function=new function MyFunction()<br>
+            <strong>B</strong><input type="radio" name="question6" value="B">function MyFunction()<br>
+            <strong>C</strong><input type="radio" name="question6" value="C">function=MyFunction()<br>
+            <strong>D</strong><input type="radio" name="question6" value="D">new function MyFunction()<br>
+            <strong>E</strong><input type="radio" name="question6" value="E">function MyFunction{}<br>
+        </form>
+
+        <h1 id="question7title">7. How do we use a method of an object named MyObject?</h1>
+        <form id="question7">
+            <strong>A</strong><input type="radio" name="question7" value="A">MyObject.method<br>
+            <strong>B</strong><input type="radio" name="question7" value="B">MyObject.method{}<br>
+            <strong>C</strong><input type="radio" name="question7" value="C">MyObject.method()<br>
+            <strong>D</strong><input type="radio" name="question7" value="D">MyObject:method()<br>
+            <strong>E</strong><input type="radio" name="question7" value="E">MyObject-method()<br>
+        </form>
+
+        <h1 id="question8title">8. Which of these is not a valid parameter for a Javascript function?</h1>
+        <form id="question8">
+            <strong>A</strong><input type="radio" name="question8" value="A">A string<br>
+            <strong>B</strong><input type="radio" name="question8" value="B">A char<br>
+            <strong>C</strong><input type="radio" name="question8" value="C">An operator<br>
+            <strong>D</strong><input type="radio" name="question8" value="D">A double<br>
+            <strong>E</strong><input type="radio" name="question8" value="E">An int<br>
+        </form>
+
+        <h1 id="question9title">9. The onfocus event refers to...</h1>
+        <form id="question9">
+            <strong>A</strong><input type="radio" name="question9" value="A">When an element comes into view.<br>
+            <strong>B</strong><input type="radio" name="question9" value="B">When an element is zoomed in.<br>
+            <strong>C</strong><input type="radio" name="question9" value="C">When an element is toggled.<br>
+            <strong>D</strong><input type="radio" name="question9" value="D">When an element is focused on by the visitor.<br>
+            <strong>E</strong><input type="radio" name="question9" value="E">When an element has a blur effect removed.<br>
+        </form>
+
+        <h1 id="question10title">10. A Javascript function can have up to how many parameters?</h1>
+        <form id="question10">
+            <strong>A</strong><input type="radio" name="question10" value="A">2<br>
+            <strong>B</strong><input type="radio" name="question10" value="B">3<br>
+            <strong>C</strong><input type="radio" name="question10" value="C">As many as you want.<br>
+            <strong>D</strong><input type="radio" name="question10" value="D">10<br>
+            <strong>E</strong><input type="radio" name="question10" value="E">5<br>
+        </form>
+
+        <button class="btn-primary" onclick="GetScore()">Click here to calculate your score!</button>
     </div>
+
+    <h1 id="score"></h1>
+    <h3 id="answer1data"></h3>
+    <h3 id="answer2data"></h3>
+    <h3 id="answer3data"></h3>
+    <h3 id="answer4data"></h3>
+    <h3 id="answer5data"></h3>
+    <h3 id="answer6data"></h3>
+    <h3 id="answer7data"></h3>
+    <h3 id="answer8data"></h3>
+    <h3 id="answer9data"></h3>
+    <h3 id="answer10data"></h3>
+</div>
 </body>
 </html>
